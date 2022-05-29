@@ -1,0 +1,241 @@
+/*************************************GENERAL***************************/
+
+body {
+  margin: 0;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 4%
+}
+
+input{
+  text-align: center;
+}
+
+/*************************************PAGE ONE***************************/
+
+.container1 {
+  background-color: #FEF5ED;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.pageOne {
+  position: relative;
+  top: 25vh;
+}
+
+
+
+.coder1 {
+  height: 200px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
+
+.coder2 {
+  height: 200px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.pictureKo {
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+}
+
+.pageOneLink {
+  position: absolute;
+  top: 0;
+  right: 100px;
+}
+
+.cellPage1 {
+  padding: 20px;
+}
+
+
+
+/*************************************PAGE TWO***************************/
+.container2 {
+  background-color: #ADC2A9;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  top: 100vh;
+}
+
+.aboutMe{
+  font-size: 64px;
+}
+
+.educ{
+  position: absolute;
+  left: 50vh;
+  top: 25vh;
+}
+
+.skills{
+  position: absolute;
+  right: 50vh;
+  top: 25vh;
+}
+
+.pg2_font_h2{
+  font-size: 42px;
+}
+
+.pg2_font_content{
+  font-size: 22px;
+}
+
+.pg2_font_schools{
+  font-size: 18;
+  font-style: italic;
+}
+
+.pg2_font_skills{
+  font-size: 30px;
+}
+
+.feua{
+  position: absolute;
+  height: 150px;
+  left: 25vh;
+  top: 35%;
+
+}
+
+.jsma{
+  position: absolute;
+  height: 150px;
+  left: 25vh;
+  top: 60%;
+
+}
+
+.network{
+  position: absolute;
+  height: 150px;
+  top: 0;
+  left: 0;
+
+}
+
+.webdev{
+  position: absolute;
+  height: 150px;
+  bottom: 0;
+  right: 0;
+}
+
+/*************************************PAGE THREE***************************/
+
+.container3 {
+  background-color: #FEF5ED;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  top: 200vh;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.pg3_logo{
+  height: 75px;
+}
+
+.contacts{
+  position: absolute;
+  top: 30vh;
+  left: 30vh
+}
+
+.font_contact{
+  font-size: 30px;
+}
+
+.message{
+  position: absolute;
+  right: 30vh;
+  top: 30vh;
+
+}
+
+.messageBox{
+  height: 200px;
+  width: 400px;
+}
+/*************************************MISC***************************/
+
+
+.paddingBot{
+  padding-bottom: 20px;
+
+}
+
+.paddingBot_contact{
+  padding-bottom: 50px;
+}
+
+.paddingBot_skills{
+  padding-bottom: 60px;
+
+}
+
+.leftAlign{
+  text-align: left;
+}
+
+.paddingTop{
+  padding-top: 20px;
+}
+
+.paddingTop_shs{
+  padding-top: 130px;
+}
+
+.removeLink {
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.brixFont{
+  font-family: 'Sacramento', cursive;
+  font-size: 56px;
+}
+
+.headerFont{
+  font-family: 'Amatic SC', cursive;
+}
+
+.contentFont{
+  font-family: 'Andika', sans-serif;
+}
+
+.welcome{
+  font-size: 64px;
+}
+
+.fontColorGreen{
+  color: #99A799;
+}
+
+.fontcolorSecond{
+  color: #FEF5ED;
+}
