@@ -1,7 +1,9 @@
+
 /*************************************GENERAL***************************/
 
 body {
-  margin: 0;
+  width: auto;
+  background-color: #CA965C;
 }
 
 hr {
@@ -15,20 +17,39 @@ input{
   text-align: center;
 }
 
-/*************************************PAGE ONE***************************/
-
-.container1 {
-  background-color: #FEF5ED;
-  text-align: center;
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  margin: 0 auto;
+section {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+footer{
+  height: 10%;
+  width:100%;
+  position: absolute;
+  bottom: 0;
+
+}
+
+
+/*************************************PAGE ONE***************************/
+
+.section1{
+  height:100vh;
+  background-color: #06283D;
+}
+
+.page1{
+  background-color: #06283D;
+}
 .pageOne {
-  position: relative;
-  top: 25vh;
+  text-align: center;
+  position: absolute;
+  top: 35vh;
+}
+
+.links{
+  padding-right: 100px;
 }
 
 
@@ -51,9 +72,8 @@ input{
 
 .pictureKo {
   height: 100px;
-  position: absolute;
-  top: 50px;
-  left: 200px;
+  position: relative;
+  left: 25vh;
 }
 
 .pageOneLink {
@@ -70,162 +90,175 @@ input{
 
 /*************************************PAGE TWO***************************/
 .container2 {
-  background-color: #ADC2A9;
+  background-color: #DFF6FF;
   text-align: center;
+  align-items: center;
   display: inline-block;
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100vh;
   margin: 0 auto;
-  top: 100vh;
+  top: 0;
 }
 
 .aboutMe{
-  font-size: 64px;
+  font-size: 72px;
+  margin-top: 2%;
+  padding-bottom: 1%;
 }
 
-.educ{
-  position: absolute;
-  left: 50vh;
-  top: 25vh;
+.row-main-pg2{
+  height: 50vh;
 }
 
-.skills{
-  position: absolute;
-  right: 50vh;
-  top: 25vh;
+.education{
+  padding-bottom: 5%;
 }
 
-.pg2_font_h2{
-  font-size: 42px;
+.borderLeft{
+  border-right: 3px solid #3894d1;
 }
 
-.pg2_font_content{
-  font-size: 22px;
+.custom-card-educ{
+  height: 20%;
+  width: 40%;
+  align-items: center;
+  margin: auto;
 }
 
-.pg2_font_schools{
-  font-size: 18;
-  font-style: italic;
-}
-
-.pg2_font_skills{
-  font-size: 30px;
+.custom-card-img-educ{
+  height: 100%;
+  width: 80%;
 }
 
 .feua{
-  position: absolute;
-  height: 150px;
-  left: 25vh;
-  top: 35%;
+height: 200px;
+width: 200px;
 
 }
 
 .jsma{
-  position: absolute;
-  height: 150px;
-  left: 25vh;
-  top: 60%;
-
+  height: 200px;
 }
 
-.network{
-  position: absolute;
-  height: 150px;
-  top: 0;
-  left: 0;
-
+.custom-card-2{
+  height: 100%;
+  width: 50%;
 }
 
-.webdev{
-  position: absolute;
-  height: 150px;
-  bottom: 0;
-  right: 0;
+.carousel-item-skills{
+  padding-bottom: 9.46%;
 }
+.carousel-item-educ{
+  padding-bottom: 5.65%;
+}
+
+.custom-carousel-control{
+  height: 100%;
+}
+
+.card-font{
+  font-size: 32px;
+}
+
+.custom-card-header-1{
+  padding-bottom: 10%;
+}
+
+.demo {
+   filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(5px 5px 5px black);
+}
+
+.borderColor{
+  border-color: #3894d1
+}
+
+
 
 /*************************************PAGE THREE***************************/
 
 .container3 {
-  background-color: #FEF5ED;
+  background-color:  #06283D;
   text-align: center;
+  align-items: center;
+  display: inline-block;
+  position: relative;
   width: 100%;
   height: 100vh;
-  top: 200vh;
-  position: absolute;
   margin: 0 auto;
+  top: 0;
 }
 
-.pg3_logo{
-  height: 75px;
+.card.custom3{
+  height: 55%;
+  width:55%;
+  margin:5% auto;
+  padding:5% 0;
+  align-items:center;
+  border-radius:25px;
+  background-color:#DFF6FF;
 }
 
-.contacts{
-  position: absolute;
-  top: 30vh;
-  left: 30vh
-}
-
-.font_contact{
-  font-size: 30px;
-}
-
-.message{
-  position: absolute;
-  right: 30vh;
-  top: 30vh;
-
-}
-
-.messageBox{
-  height: 200px;
-  width: 400px;
+.card.custom4{
+  margin:auto auto auto 10%;
+  width:100%;
+  background-color:#DFF6FF;
 }
 /*************************************MISC***************************/
 
-
-.paddingBot{
-  padding-bottom: 20px;
-
+button{
+  color: black;
 }
 
-.paddingBot_contact{
-  padding-bottom: 50px;
-}
+::placeholder{
+  font-weight: 300;
+  color: gray;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: bold;
 
-.paddingBot_skills{
-  padding-bottom: 60px;
-
-}
-
-.leftAlign{
-  text-align: left;
-}
-
-.paddingTop{
-  padding-top: 20px;
-}
-
-.paddingTop_shs{
-  padding-top: 130px;
 }
 
 .removeLink {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 30px;
+}
+
+.subtitle{
+  font: 22px;
 }
 
 .brixFont{
-  font-family: 'Sacramento', cursive;
-  font-size: 56px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-size: 120px;
+  font-weight: 400;
+  text-shadow: 4px 2px 2px black;
 }
 
 .headerFont{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Baloo Bhai 2', cursive;
 }
 
 .contentFont{
-  font-family: 'Andika', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.shadowBlack{
+  text-shadow: 4px 2px 2px black;
+}
+
+.shadowBlack2{
+  text-shadow: 2px 2px 2px #c6c9cf;
+}
+
+.contentFont-net{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+.contentFont-web{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
 }
 
 .welcome{
@@ -233,9 +266,125 @@ input{
 }
 
 .fontColorGreen{
-  color: #99A799;
+  color: #DFF6FF;
 }
 
 .fontcolorSecond{
-  color: #FEF5ED;
+  color: #3894d1;
+}
+
+.custom-card-header{
+  height:30%;
+  width: 100%;
+  margin:auto;
+}
+
+.card-group.group1{
+  width:70%;
+  margin:5% auto auto;
+}
+
+.message{
+  margin:auto;
+  margin-bottom:3%;
+  border-radius:25px;
+}
+
+@media screen and (max-width: 1400px){
+.brixFont{
+  font-size: 72px;
+}
+
+.coder1 {
+  height: 100px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
+
+.coder2 {
+  height: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.card.custom3{
+  height: 80%;
+  width:80%;
+  margin:5% auto;
+  padding:5% 0;
+  align-items:center;
+  border-radius:25px;
+  background-color:#DFF6FF;
+}
+
+}
+
+@media screen and (max-width: 425px){
+
+  .brixFont{
+    font-family: 'Sacramento', cursive;
+    font-size: 32px;
+  }
+
+  .coder1 {
+    height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+
+
+  .coder2 {
+    height: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .custom-card-col-1{
+    height: 10vh;
+  }
+
+  .contentFont-net{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+  }
+  .contentFont-web{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+  }
+  .custom-card.group1{
+    width:60%;
+    height:10%;
+    margin:5% auto auto;
+  }
+
+  .card.custom3{
+    height: 80%;
+    width:50%;
+    margin:5% auto;
+    padding:5% 0;
+    align-items:center;
+    border-radius:25px;
+    background-color:#DFF6FF;
+  }
+
+  .contact{
+    height:100px;
+  }
+
+  .card.custom4{
+    margin:auto auto auto auto;
+    width:70%;
+    background-color:#DFF6FF;
+  }
+
+  .message{
+    width: 70%;
+  }
 }
